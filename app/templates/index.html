@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
+    <title>CV - 201900532</title>
+</head>
+<body>
+    <div class="container">
+        <div class="datos">
+            <div class="personales">
+                <div class="foto">
+                    <img src="{{url_for('static',filename = 'src/photobar.jpg')}}" alt="foto">   
+                </div>
+                <div class="persona">
+                    <label for="persona">Juan Jose Gerardi Hernandez</label>
+                    <label for="persona">Ingeniero en ciencias y sistemas</label>
+                </div>
+            </div>
+            <div class="yo">
+                <p>
+                    Hola,soy Juan!
+                    soy un fan de la programacion, anime y de la filosofia :)
+                </p> 
+                <p>    
+                    Estudiante de ing. en ciencias y sistemas en la universidad de san carlos 
+                    de Guatemala, soy una persona responsable y comprometida.
+                    Dispuesto a aprender cada dia nuevas cosas.
+                </p>
+            </div>
+            <div class="contact">
+                <a href="mailto:juanjgerardiher1998@gmail.com" target="_blank">
+                    <img src="{{url_for('static',filename = 'src/correo-electronico.png')}}" alt="gmail" style="border-radius: 50%;">
+                </a>
+                <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BQkYaQa7lRwWxbHyqDaOcIQ%3D%3D" target="_blank">
+                    <img src="{{url_for('static',filename = 'src/linkedin.png')}}" alt="linkedIn" style="border-radius:10px;">
+                </a>
+                <a href="https://twitter.com/Jgeraardi" target="_blank">
+                    <img src="{{url_for('static',filename = 'src/twitter-alt-circle.png')}}" alt="x" style="border-radius: 50%;">
+                </a>
+                <a href="https://github.com/Juanj098" target="_blank">
+                    <img src="{{url_for('static',filename = 'src/github.png')}}" alt="git" style="border-radius: 50%;">
+                </a>
+            </div>  
+        </div>
+
+        <div class="material">
+            <div class="estudios">
+                <h3>Estudios Academicos</h3>
+                <ul>
+                    <li>Bachillerato en computacion</li>
+                    <li>Ingenieria en ciencias y sistemas</li>
+                </ul>
+            </div>
+            <div class="habilidades">
+            <h3>Habilidades</h3>
+                <h4>Lenguajes:</h4>
+                <div class="imags">
+                    <img src="{{url_for('static',filename = 'src/js.png')}}" alt="JS">
+                    <img src="{{url_for('static',filename = 'src/css-3 (1).png')}}" alt="CSS">
+                    <img src="{{url_for('static',filename = 'src/piton.png')}}" alt="Py">
+                    <img src="{{url_for('static',filename = 'src/html-5.png')}}" alt="HTML">
+                </div> 
+                <h4>Frameworks:</h4>
+                <div class="imags">
+                    <img src="{{url_for('static',filename = 'src/flask-icon.png')}}" alt="">
+                </div>
+            </div>
+            <div class="hobbies">
+                <h3>Hobbies</h3>
+                <ul>
+                    <li> Pasear con mis perror </li>
+                    <li> Ver anime </li>
+                    <li> Cocinar </li>
+                    <li> Leer filosofia</li>
+                    <li> Aprender temas nuevos</li>
+                </ul>
+            </div>
+        </div>      
+    </div>
+</body>
+</html>
